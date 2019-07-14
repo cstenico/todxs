@@ -5,6 +5,8 @@ import Header from './components/Header/Header'
 import Introduction from './components/Introduction/Introduction'
 import Registry from './components/Registry/Registry'
 import Checklist from './components/Checklist/Checklist'
+import Footer from './components/Footer/Footer'
+
 
 function App() {
   return (
@@ -20,6 +22,9 @@ function App() {
       </div>
       <div className="checklist">
         <Checklist></Checklist>
+      </div>
+      <div className="credits">
+        <Footer></Footer>
       </div>
     </div>
   );
